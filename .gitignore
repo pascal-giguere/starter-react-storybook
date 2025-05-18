@@ -1,0 +1,21 @@
+# JetBrains
+.idea
+
+# Yarn
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/versions
+!.yarn/sdks
+yarn-debug.log
+yarn-error.log
+.pnp.*
+node_modules
+
+# Storybook
+*storybook.log
+storybook-static
+
+# Build folder
+dist
