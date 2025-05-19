@@ -3,12 +3,12 @@
   "description": "Pascal's starter React/Storybook project",
   "version": "1.0.0",
   "author": "Pascal Giguère",
-  "homepage": "https://github.com/pascal-giguere/starter-react",
+  "homepage": "https://github.com/pascal-giguere/starter-react-storybook",
   "license": "ISC",
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pascal-giguere/starter-react.git"
+    "url": "https://github.com/pascal-giguere/starter-react-storybook.git"
   },
   "packageManager": "yarn@4.9.1",
   "engines": {
