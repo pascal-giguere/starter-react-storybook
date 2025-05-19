@@ -5,6 +5,8 @@ import react from "@vitejs/plugin-react";
 import packageJson from "./package.json" with { type: "json" };
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
+
+// Mark peer dependencies as external so they are not bundled into the library
 const externalDependencies = [...Object.keys(packageJson.peerDependencies ?? {})];
 const externalDependenciesRegex = externalDependencies.map((dep) => new RegExp(`^${dep}(/.*)?`));
 
